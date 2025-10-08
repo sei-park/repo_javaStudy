@@ -18,7 +18,7 @@ public class Scanner3 {
 			System.out.println(num1);
 		} else if(num2 > num1) {
 			System.out.println(num2);
-		} else if(num1 == num2) {
+		} else {
 			System.out.println("두 숫자가 같음");
 		}
 	}
