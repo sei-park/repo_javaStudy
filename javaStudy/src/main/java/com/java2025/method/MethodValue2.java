@@ -10,6 +10,12 @@ public class MethodValue2 {
 		System.out.println("4. changeNumber 호출 후, number: " + number); // number = 5 
 	}
 	
+//	public static void changeNumber(int number) { // number = 5 
+//		System.out.println("2. changeNumber 변경 전, number: " + number); // number = 5
+//		number = number * 2; // number = 10
+//		System.out.println("3. changeNumber 변경 후, number: " + number); // number = 10
+//	}
+	
 	public static void changeNumber(int number) { // number = 5 
 		System.out.println("2. changeNumber 변경 전, number: " + number); // number = 5
 		number = number * 2; // number = 10
